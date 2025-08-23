@@ -175,6 +175,40 @@ function App() {
       image:
         "https://images.pexels.com/photos/4492129/pexels-photo-4492129.jpeg",
     },
+     {
+    title: "MyAttendance - PWA Attendance Tracker",
+    description:
+      "Built a Progressive Web App for tracking student attendance with dynamic timetables, real-time analytics, offline support, and multi-stream compatibility for different courses.",
+    liveLink: "https://myattendance-pwa.vercel.app/",
+    githubLink: "https://github.com/ShivamGupta987/My-Attendance",
+    tags: [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Supabase",
+      "Framer Motion",
+      "PWA",
+    ],
+    image: "https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg",
+  },
+  {
+    title: "Event Master - Event Management System",
+    description:
+      "Developed an event management system enabling users to create, update, and monitor events while tracking participants in real time. Includes role-based dashboards, analytics, and a modern responsive design.",
+    liveLink: "https://event-master.vercel.app/",
+    githubLink: "https://github.com/ShivamGupta987/Event-Master",
+    tags: [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Clerk",
+      "Convex",
+      "MongoDB",
+    ],
+    image: "https://images.pexels.com/photos/1181355/pexels-photo-1181355.jpeg",
+  },
+
     {
       title: "File Fly Away - Link-Based File Delivery",
       description:
