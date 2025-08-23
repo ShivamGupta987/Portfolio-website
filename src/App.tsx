@@ -191,23 +191,6 @@ function App() {
     ],
     image: "https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg",
   },
-  {
-    title: "Event Master - Event Management System",
-    description:
-      "Developed an event management system enabling users to create, update, and monitor events while tracking participants in real time. Includes role-based dashboards, analytics, and a modern responsive design.",
-    liveLink: "https://event-master.vercel.app/",
-    githubLink: "https://github.com/ShivamGupta987/Event-Master",
-    tags: [
-      "Next.js",
-      "React",
-      "Tailwind CSS",
-      "Shadcn UI",
-      "Clerk",
-      "Convex",
-      "MongoDB",
-    ],
-    image: "https://images.pexels.com/photos/1181355/pexels-photo-1181355.jpeg",
-  },
 
     {
       title: "File Fly Away - Link-Based File Delivery",
