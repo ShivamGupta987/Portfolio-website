@@ -179,7 +179,7 @@ function App() {
     title: "MyAttendance - PWA Attendance Tracker",
     description:
       "Built a Progressive Web App for tracking student attendance with dynamic timetables, real-time analytics, offline support, and multi-stream compatibility for different courses.",
-    liveLink: "https://myattendance-pwa.vercel.app/",
+    liveLink: "https://my-attendance-mocha.vercel.app/",
     githubLink: "https://github.com/ShivamGupta987/My-Attendance",
     tags: [
       "Next.js",
