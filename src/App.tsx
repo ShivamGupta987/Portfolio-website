@@ -92,6 +92,8 @@ function App() {
         { name: "Git", icon: GitBranch },
         { name: "Prisma", icon: Layers },
         { name: "Convex", icon: Zap },
+        { name: "Supabase", icon: Database },
+        
       ],
     },
   ];
@@ -137,6 +139,17 @@ function App() {
         "Participated in international hackathon, collaborating with global developers to build innovative solutions within time constraints.",
       color: "from-purple-400 to-pink-500",
     },
+
+    {
+      title: "Generative AI Professional",
+      issuer: "Oracle",
+      date: "2025",
+      type: "Certificate",
+      link: "https://drive.google.com/file/d/1-asixHhp_I5jzp8mznhES8R-UBBmb2Ps/view?usp=sharing",
+      description:
+        "Earned certification from Oracle for Generative AI, showcasing expertise in AI model development, prompt engineering, and real-world implementation through collaborative international hackathon projects.",
+      color: "from-purple-400 to-pink-500",
+    },
   ];
 
   const projects = [
@@ -175,22 +188,22 @@ function App() {
       image:
         "https://images.pexels.com/photos/4492129/pexels-photo-4492129.jpeg",
     },
-     {
-    title: "MyAttendance - PWA Attendance Tracker",
-    description:
-      "Built a Progressive Web App for tracking student attendance with dynamic timetables, real-time analytics, offline support, and multi-stream compatibility for different courses.",
-    liveLink: "https://my-attendance-mocha.vercel.app/",
-    githubLink: "https://github.com/ShivamGupta987/My-Attendance",
-    tags: [
-      "Next.js",
-      "React",
-      "Tailwind CSS",
-      "Supabase",
-      "Framer Motion",
-      "PWA",
-    ],
-    image: "https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg",
-  },
+    {
+      title: "MyAttendance - PWA Attendance Tracker",
+      description:
+        "Built a Progressive Web App for tracking student attendance with dynamic timetables, real-time analytics, offline support, and multi-stream compatibility for different courses.",
+      liveLink: "https://my-attendance-mocha.vercel.app/",
+      githubLink: "https://github.com/ShivamGupta987/My-Attendance",
+      tags: [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Supabase",
+        "Framer Motion",
+        "PWA",
+      ],
+      image: "https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg",
+    },
 
     {
       title: "File Fly Away - Link-Based File Delivery",
@@ -425,7 +438,7 @@ function App() {
               transition={{ duration: 0.8, delay: 0.6 }}
             >
               <motion.a
-                href="https://drive.google.com/file/d/1qa-WuEyIMlLzCgNJfM5uAD0yqaz7DFlc/view?usp=sharing"
+                href="https://drive.google.com/file/d/1K4ms1uMXZKqXZ0vEorG9Iojq_4PGzaLI/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-8 py-3 font-semibold text-white transition-all duration-300 transform rounded-full shadow-lg bg-gradient-to-r from-teal-500 to-cyan-600 hover:from-teal-600 hover:to-cyan-700 hover:shadow-xl hover:scale-105"
@@ -525,7 +538,7 @@ function App() {
                 <div className="flex flex-wrap gap-4 pt-4">
                   <div className="p-4 border rounded-lg bg-slate-800/50 backdrop-blur-sm border-slate-700">
                     <h4 className="mb-2 font-semibold text-teal-400">GPA</h4>
-                    <p className="text-2xl font-bold">9.21/10</p>
+                    <p className="text-2xl font-bold">9.25/10</p>
                   </div>
                   <div className="p-4 border rounded-lg bg-slate-800/50 backdrop-blur-sm border-slate-700">
                     <h4 className="mb-2 font-semibold text-teal-400">
