@@ -55,6 +55,8 @@ function App() {
     { id: "skills", label: "Skills", icon: Code2 },
     { id: "certificates", label: "Certificates", icon: Award },
     { id: "contact", label: "Contact", icon: Mail },
+    { id: "experience", label: "Experience", icon: Briefcase },
+
   ];
 
   const skillCategories = [
@@ -97,6 +99,24 @@ function App() {
       ],
     },
   ];
+
+
+  const experiences = [
+  {
+    role: "Software Developer Intern",
+    company: "Kotak Life Insurance (KLI)",
+    duration: "Jan 2026 – Present",
+    type: "Internship",
+    techStack: ["Angular", "Spring Boot", "REST APIs","Docker","Oracle Sql"],
+    description:
+      "Working as a Software Developer Intern at Kotak Life Insurance (KLI), contributing to enterprise-level applications using Angular for frontend and Spring Boot for backend development.",
+    color: "from-rose-500 via-pink-500 to-purple-600",
+  },
+];
+
+
+  
+  
 
   const certificates = [
     {
@@ -150,7 +170,21 @@ function App() {
         "Earned certification from Oracle for Generative AI, showcasing expertise in AI model development, prompt engineering, and real-world implementation through collaborative international hackathon projects.",
       color: "from-purple-400 to-pink-500",
     },
+    {
+  title: "365 Days LeetCode Challenge",
+  issuer: "LeetCode",
+  date: "2025",
+  type: "Achievement",
+  link: "https://drive.google.com/file/d/1DKA0-6aG5HIzUafYbWrXRXEoODZd4-32/view?usp=sharing", // replace with your LeetCode profile or proof link
+  description:
+    "Successfully completed 365 consecutive days of solving Data Structures and Algorithms problems on LeetCode, demonstrating strong problem-solving skills, discipline, and consistency.",
+  color: "from-fuchsia-500 via-purple-600 to-indigo-600",
+
+},
+
   ];
+
+
 
   const projects = [
     {
@@ -438,7 +472,7 @@ function App() {
               transition={{ duration: 0.8, delay: 0.6 }}
             >
               <motion.a
-                href="https://drive.google.com/file/d/1K4ms1uMXZKqXZ0vEorG9Iojq_4PGzaLI/view?usp=sharing"
+                href="https://drive.google.com/file/d/1JHg07HVkjO-XU7neiOV3SKZbzcHKLFNx/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-8 py-3 font-semibold text-white transition-all duration-300 transform rounded-full shadow-lg bg-gradient-to-r from-teal-500 to-cyan-600 hover:from-teal-600 hover:to-cyan-700 hover:shadow-xl hover:scale-105"
@@ -538,7 +572,7 @@ function App() {
                 <div className="flex flex-wrap gap-4 pt-4">
                   <div className="p-4 border rounded-lg bg-slate-800/50 backdrop-blur-sm border-slate-700">
                     <h4 className="mb-2 font-semibold text-teal-400">GPA</h4>
-                    <p className="text-2xl font-bold">9.25/10</p>
+                    <p className="text-2xl font-bold">9.32/10</p>
                   </div>
                   <div className="p-4 border rounded-lg bg-slate-800/50 backdrop-blur-sm border-slate-700">
                     <h4 className="mb-2 font-semibold text-teal-400">
@@ -589,7 +623,86 @@ function App() {
           </div>
         </div>
       </section>
+      <section id="experience" className="px-4 py-20 sm:px-6 lg:px-8">
+  <div className="max-w-6xl mx-auto">
 
+    {/* Heading */}
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+      className="mb-16 text-center"
+    >
+      <h2 className="mb-6 text-4xl font-bold sm:text-5xl">
+        <span className="text-transparent bg-gradient-to-r from-pink-400 to-purple-500 bg-clip-text">
+          Experience
+        </span>
+      </h2>
+      <div className="w-24 h-1 mx-auto bg-gradient-to-r from-pink-400 to-purple-500"></div>
+    </motion.div>
+
+    {/* Experience Card */}
+    <div className="space-y-8">
+      {experiences.map((exp, index) => (
+        <motion.div
+          key={index}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+          className="p-6 border bg-slate-800/50 backdrop-blur-sm rounded-xl border-slate-700 hover:border-pink-500/50"
+          whileHover={{ scale: 1.02 }}
+        >
+          <div className="flex items-start gap-4 mb-4">
+
+            {/* Icon */}
+            <div className={`p-3 rounded-lg bg-gradient-to-r ${exp.color}`}>
+              <Briefcase className="text-white" size={24} />
+            </div>
+
+            {/* Content */}
+            <div className="flex-1">
+              <span className="px-3 py-1 text-xs font-semibold text-white rounded-full bg-pink-500/20">
+                {exp.type}
+              </span>
+
+              <h3 className="mt-2 text-xl font-bold text-white">
+                {exp.role}
+              </h3>
+
+              <p className="font-semibold text-pink-400">
+                {exp.company}
+              </p>
+
+              <p className="text-sm text-gray-400">
+                {exp.duration}
+              </p>
+            </div>
+          </div>
+
+          {/* Description */}
+          <p className="mb-4 text-gray-300">
+            {exp.description}
+          </p>
+
+          {/* Tech Stack */}
+          <div className="flex flex-wrap gap-2">
+            {exp.techStack.map((tech, i) => (
+              <span
+                key={i}
+                className="px-3 py-1 text-sm font-medium text-purple-300 rounded-full bg-purple-500/20"
+              >
+                {tech}
+              </span>
+            ))}
+          </div>
+
+        </motion.div>
+      ))}
+    </div>
+  </div>
+</section>
       {/* Education Section */}
       <section
         id="education"
@@ -618,7 +731,7 @@ function App() {
                 institution: "Thakur College of Engineering and Technology",
                 location: "Mumbai, Maharashtra",
                 period: "Expected May 2026",
-                gpa: "9.21/10",
+                gpa: "9.32/10",
                 coursework: [
                   "Data Structures",
                   "Algorithms",
@@ -688,6 +801,9 @@ function App() {
           </div>
         </div>
       </section>
+      {/* Experience Section */}
+
+
 
       {/* Projects Section */}
       <section id="projects" className="px-4 py-20 sm:px-6 lg:px-8">
@@ -989,7 +1105,7 @@ function App() {
                     <div>
                       <p className="text-gray-400">Email</p>
                       <p className="font-semibold text-white">
-                        sg0802599@gmail.com
+                        sg804595@gmail.com
                       </p>
                     </div>
                   </div>
