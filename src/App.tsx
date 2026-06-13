@@ -580,7 +580,7 @@ function App() {
                 <div className="flex flex-wrap gap-4 pt-4">
                   <div className="p-4 border rounded-lg bg-slate-800/50 backdrop-blur-sm border-slate-700">
                     <h4 className="mb-2 font-semibold text-teal-400">GPA</h4>
-                    <p className="text-2xl font-bold">9.32/10</p>
+                    <p className="text-2xl font-bold">9.38/10</p>
                   </div>
                   <div className="p-4 border rounded-lg bg-slate-800/50 backdrop-blur-sm border-slate-700">
                     <h4 className="mb-2 font-semibold text-teal-400">
