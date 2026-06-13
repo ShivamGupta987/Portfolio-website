@@ -110,7 +110,7 @@ function App() {
     techStack: ["Angular","React","Spring Boot","Java","REST APIs","Docker","Oracle SQL","Git"],
     description:
       "Developing and maintaining enterprise applications including Invoice Management System, Audit Management System, and Carpool Application. Working across Angular/React frontend and Spring Boot backend, building secure APIs, deploying applications on internal servers, and automating workflows for 2,000+ internal users.",
-    color: "from-rose-500 via-pink-500 to-purple-600",
+     color: "from-emerald-500 via-teal-500 to-cyan-500",
   },
   {
     role: "Software Developer Intern",
@@ -563,18 +563,11 @@ function App() {
             >
               <div className="space-y-6">
                 <p className="text-lg leading-relaxed text-gray-300">
-                  I'm a passionate Computer Science student with a deep interest
-                  in web development and AI. Currently pursuing my undergraduate
-                  degree at Thakur College of Engineering and Technology, I
-                  thrive on creating innovative solutions and mastering
-                  cutting-edge technologies.
+                  I'm Shivam Gupta, a Software Development Engineer at Kotak Life Insurance and a Computer Engineering graduate from Thakur College of Engineering and Technology. I specialize in building scalable web applications using Angular, React, Spring Boot, Java, and modern cloud technologies.
                 </p>
-
+                
                 <p className="text-lg leading-relaxed text-gray-300">
-                  My journey in web development has equipped me with strong
-                  problem-solving abilities and an eye for detail. I enjoy
-                  building clean, efficient code that delivers exceptional user
-                  experiences.
+                  I enjoy solving complex problems, developing enterprise-grade applications, and creating impactful software solutions. Passionate about Full Stack Development, AI, and continuous learning, I'm always exploring new technologies and improving my engineering skills.
                 </p>
 
                 <div className="flex flex-wrap gap-4 pt-4">
@@ -738,8 +731,8 @@ function App() {
                 title: "Bachelor of Engineering in Computer Science",
                 institution: "Thakur College of Engineering and Technology",
                 location: "Mumbai, Maharashtra",
-                period: "Expected May 2026",
-                gpa: "9.32/10",
+                period: "May 2026",
+                gpa: "9.38/10",
                 coursework: [
                   "Data Structures",
                   "Algorithms",
@@ -1212,7 +1205,7 @@ function App() {
           <div className="flex flex-col items-center justify-between md:flex-row">
             <div className="mb-4 text-center md:text-left md:mb-0">
               <p className="text-gray-400">
-                © 2025 Shivam Gupta. All rights reserved.
+                © 2026 Shivam Gupta. All rights reserved.
               </p>
             </div>
 
