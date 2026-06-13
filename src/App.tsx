@@ -102,10 +102,20 @@ function App() {
 
 
   const experiences = [
+    {
+    role: "Software Development Engineer",
+    company: "Kotak Life Insurance (KLI)",
+    duration: "Jun 2026 – Present",
+    type: "Full-Time",
+    techStack: ["Angular","React","Spring Boot","Java","REST APIs","Docker","Oracle SQL","Git"],
+    description:
+      "Developing and maintaining enterprise applications including Invoice Management System, Audit Management System, and Carpool Application. Working across Angular/React frontend and Spring Boot backend, building secure APIs, deploying applications on internal servers, and automating workflows for 2,000+ internal users.",
+    color: "from-rose-500 via-pink-500 to-purple-600",
+  },
   {
     role: "Software Developer Intern",
     company: "Kotak Life Insurance (KLI)",
-    duration: "Jan 2026 – Present",
+    duration: "Jan 2026 – May 2026",
     type: "Internship",
     techStack: ["Angular", "Spring Boot", "REST APIs","Docker","Oracle Sql"],
     description:
@@ -114,8 +124,6 @@ function App() {
   },
 ];
 
-
-  
   
 
   const certificates = [
