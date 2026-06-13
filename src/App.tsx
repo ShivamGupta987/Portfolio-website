@@ -480,7 +480,7 @@ function App() {
               transition={{ duration: 0.8, delay: 0.6 }}
             >
               <motion.a
-                href="https://drive.google.com/file/d/1JHg07HVkjO-XU7neiOV3SKZbzcHKLFNx/view?usp=sharing"
+                href="https://drive.google.com/file/d/17P3JkHWGAoDdWAsSwLKyAcluuyPP3-OK/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-8 py-3 font-semibold text-white transition-all duration-300 transform rounded-full shadow-lg bg-gradient-to-r from-teal-500 to-cyan-600 hover:from-teal-600 hover:to-cyan-700 hover:shadow-xl hover:scale-105"
